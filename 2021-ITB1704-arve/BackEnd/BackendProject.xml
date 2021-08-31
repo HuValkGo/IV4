@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackendProject</name>
+    </assembly>
+    <members>
+        <member name="M:BackendProject.Controllers.UsersController.GetUsersList">
+            <summary>Leiab kõik kasutajad ja nende info</summary>
+            <returns>Kasutajate nimekiri</returns>
+        </member>
+        <member name="M:BackendProject.Controllers.UsersController.GetUser(System.Guid)">
+            <summary>Leiab ühe kasutaja info, milles sisaldub etteantud id</summary>
+            <param name="id">GUID</param>
+            <returns>Kasutaja info</returns>
+        </member>
+        <member name="M:BackendProject.Controllers.UsersController.PutUser(System.Guid,BackendProject.Model.User)">
+            <summary>Muudab ühe kasutaja infot, milles sisaldub etteantud id</summary>
+            <param name="id">GUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendProject.Controllers.UsersController.PostUser(BackendProject.Model.User)">
+            <summary>Lisab kasutaja</summary>
+            <returns>Lisatud kasutaja</returns>
+        </member>
+        <member name="M:BackendProject.Controllers.UsersController.DeleteUser(System.Guid)">
+            <summary>Kustutab kasutaja, milles sisaldub etteantud id</summary>
+            <param name="id">GUID</param>
+            <returns>No Content</returns>
+        </member>
+    </members>
+</doc>
